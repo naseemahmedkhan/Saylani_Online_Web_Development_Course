@@ -1,0 +1,565 @@
+#top_nav {    height:"1cm";
+    width: auto;
+    background-color: blue;
+}
+
+#top_nav ul {
+display: inline;
+padding-top: "5px";
+}
+
+#top_nav ul li{
+    display: inline;
+    padding-top: "5px";
+    padding-left: 0.5cm;
+}
+
+/* -------- Btn-Default ---------- */
+.button {
+    background-color: white;
+    border: black;
+    color: #427900;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 10px 5px;
+    cursor: pointer;
+  }
+#second_nav {
+    height:1.5cm ;
+    width: auto;
+}
+#second_nav ul {
+    display: inline;
+    padding-top: "5px";
+    }
+    
+    #second_nav ul li{
+        display: inline;
+        padding-top: "5px";
+        padding-left: 0.5cm;                                                                                                                                                                         
+    }
+    
+  /* Navigation Bar Working */
+  .topnav 
+  {
+    overflow: hidden;
+    background-color: #f7f8fa;
+  }
+  
+  .topnav a 
+  {
+    float: left;
+ display: block ;
+    color: black ;
+    text-align: center ;
+    padding: 14px 28px ;
+    text-decoration: none ;
+    font-size: 14px ;
+  }
+  
+  .active 
+  {
+    background-color: #316dc3 ;
+    color: white ;
+    border-radius: 42% ;
+  }
+  
+  .topnav .icon 
+  {
+    display: none;
+  }
+  
+  .dropdown 
+  {
+    float: left ;
+    overflow: hidden;
+  }
+
+  .dropdown .dropbtn 
+  {
+    font-size: 14px;    
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .dropdown-content 
+  {
+    display: none;
+    position: absolute;
+    background-color: #f8f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a 
+  {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .topnav a:hover, .dropdown:hover .dropbtn 
+  {
+    background-color: #316dc3;
+    color: rgb(7, 7, 7);
+    border-radius: 42%;
+  }
+  
+  .dropdown-content a:hover 
+  {
+    background-color: #316dc3;
+    color: rgb(14, 13, 13);
+  }
+  
+  .dropdown:hover .dropdown-content 
+  {
+    display: block;
+  }
+  
+  @media screen and (max-width: 600px) 
+  {
+    .topnav a:not(:first-child), .dropdown .dropbtn 
+    {
+      display: none;
+    }
+    .topnav a.icon 
+    {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) 
+  {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon 
+    {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a 
+    {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .topnav.responsive .dropdown {float: none;}
+    .topnav.responsive .dropdown-content {position: relative;}
+    .topnav.responsive .dropdown .dropbtn 
+    {
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+  }
+
+  /* For Showing Arrows in naviation bar */
+  .arrow 
+  {
+      border: solid black;
+      border-width: 0 1px 1px 0;
+      display: inline-block;
+      padding: 3px;
+  }        
+
+  .right 
+  {
+      transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+  }
+
+  .left 
+  {
+      transform: rotate(135deg);
+      -webkit-transform: rotate(135deg);
+  }
+
+  .up 
+  {
+      transform: rotate(-135deg);
+      -webkit-transform: rotate(-135deg);
+  }
+
+  .down 
+  {
+      transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+  }
+  
+
+  /* Header Region Working */
+.First_Outer_RN 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #316dc3;
+    height: 50px;   
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    align-items: center;
+}
+
+.Social_Media_Icons_RN 
+{
+    /* flex: 1; */
+    width: 250;
+    /* padding-top: 10px;     */
+}
+
+.Txt_RN 
+{
+    /* flex: 2; */
+    width: 250;
+    /* padding-top: 10px;  */
+    color: white; 
+}
+
+.Btns_RN 
+{
+    /* flex: 1; */
+    width: 250;
+    /* padding-top: 5px;  */
+}
+
+.Btns_RN_Btns
+{
+    background-color: #f5f5f5;
+    color: #427900;  
+    border: 1px solid #427900;  
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.Second_Outer_RN 
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #f7f8fa;
+    height: 75px;   
+    text-align: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    /* position: fixed; */
+}
+
+.Sailani_Logo_RN 
+{
+    flex: 1;
+    /* padding-top: 15px;     */
+    /* padding-left: 65px; */
+}
+
+.Middle_RN 
+{
+    flex: 1;
+    /* padding-top: 15px; */
+}
+
+.Nav_Bar_RN 
+{
+    flex: 3; 
+    /* padding-top: 15px;  */
+}
+
+/* Monthly Region Working  */
+.Monthly_RN 
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    background-color: #2655e8;
+    padding-top: 25px;
+
+}
+
+.Monthly_1_RN 
+{
+    flex: 1;
+}
+
+.Monthly_2_RN 
+{
+    flex: 1;
+}
+
+.Monthly_3_RN 
+{
+    flex: 1; 
+}
+
+.Monthly_4_RN 
+{
+    flex: 1; 
+}
+
+
+/* What We Are Doing Region Working */
+.WWAD_1_RN 
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    /* margin-top: 5px; */
+}
+
+.WWAD_1_1_RN
+{
+    flex: 1;
+    padding: 50px;   
+    background-color: white;
+    box-shadow: 5px 5px 10px #888888;
+    margin: 50px 20px 50px 150px;    
+}
+
+.WWAD_1_2_RN
+{
+    flex: 1;
+    padding: 50px;   
+    background-color: white;
+    box-shadow: 5px 5px 10px #888888;
+    /* margin: 15px 0px 15px 0px; */
+    margin: 50px 20px 50px 20px;
+}
+
+.WWAD_1_3_RN 
+{
+    flex: 1;
+    padding: 50px;   
+    background-color: white;
+    box-shadow: 5px 5px 10px #888888;
+    margin: 50px 150px 50px 20px;  
+}
+
+.WWAD_2_RN 
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+}
+
+.WWAD_2_1_RN
+{
+    flex: 1;
+    padding: 50px;   
+    background-color: white;
+    box-shadow: 5px 5px 10px #888888;
+    margin: 0px 20px 50px 150px;    
+}
+
+.WWAD_2_2_RN
+{
+    flex: 1;
+    padding: 50px;   
+    background-color: white;
+    box-shadow: 5px 5px 10px #888888;
+    /* margin: 15px 0px 15px 0px; */
+    margin: 0px 20px 50px 20px;
+}
+
+.WWAD_2_3_RN 
+{
+    flex: 1;
+    padding: 50px;   
+    background-color: white;
+    box-shadow: 5px 5px 10px #888888;
+    margin: 0px 150px 50px 20px;  
+}
+
+.WWAD_3_RN
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;    
+}
+
+/* Mission and Upcoming Projects Region Working */
+.WWAD_3_1_RN
+{
+    flex: 1;
+    margin-top: 10px;
+}
+
+.WWAD_3_2_RN
+{
+    flex: 1;
+    margin-top: 10px;
+}
+
+.WWAD_3_1_1_RN
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center; 
+}
+
+.WWAD_3_1_1_1_RN 
+{
+    flex: 1;
+    background-color: #f7f8fa; 
+    border: 1px solid lightgray;
+    padding: 15px;
+    height: 50px;
+    width: 200px;
+    margin: 0px 25px 5px 100px; 
+    color: #316dc3;      
+}
+
+.WWAD_3_1_1_2_RN
+{
+    flex: 1;
+    background-color: #f7f8fa; 
+    border: 1px solid lightgray;
+    padding: 15px;
+    margin: 0px 20px 5px 0px;
+    height: 50px;
+    width: 200px;
+    color: #316dc3;
+}
+
+.WWAD_3_1_2_RN
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center; 
+}
+
+.WWAD_3_1_2_1_RN 
+{
+    flex: 1;
+    background-color: #f7f8fa; 
+    border: 1px solid lightgray;
+    padding: 15px;
+    height: 50px;
+    width: 200px;
+    margin: 20px 25px 5px 100px; 
+    color: #316dc3;      
+}
+
+.WWAD_3_1_2_2_RN
+{
+    flex: 1;
+    background-color: #f7f8fa; 
+    border: 1px solid lightgray;
+    padding: 15px;
+    margin: 20px 20px 5px 0px;
+    height: 50px;
+    width: 200px;
+    color: #316dc3;
+}
+
+/* Image Galarry Region Working */
+.Img_Glry_RN
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;  
+    /* background-color: yellow;   */
+    /* padding: 25px; */
+    margin: 10px 10px 10px 10px; 
+}
+
+.Img_Glry_Pic_1
+{
+    flex: 1;
+    /* padding: 0px; */
+    /* border: 2px solid red;  */
+    /* padding-left: 0px ;
+    padding-right: 0px;
+    margin: 0px 0px 0px 0px;     */
+}
+
+.Img_glry_Pic_2
+{
+    flex: 1;
+    /* padding: 0px; */
+    /* border: 2px solid red; */
+    /* margin: 20px 0px 20px 0px;   */
+}
+
+.Img_glry_Pic_3
+{
+    flex: 1;
+    /* margin: 20px 0px 20px 0px;    */
+}
+
+.Img_glry_Pic_4
+{
+    flex: 1;
+    /* margin: 20px 0px 20px 0px; */
+}
+
+.Img_glry_Pic_5
+{
+    flex: 1;
+    /* margin: 20px 20px 20px 0px; */
+}
+
+/* Contact Us Region Working */
+.Contact_Us_RN
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* text-align: center; */
+    align-items: center; 
+    background-color: #25272e;
+    color: #bbb;
+    margin-top: 100px;
+}
+
+.Contact_Us_1_RN
+{
+    flex: 2;
+    text-align: left;
+}
+
+.Contact_Us_2_RN
+{
+    flex: 1;
+}
+
+.Contact_Us_3_RN
+{
+    flex: 1;
+}
+
+.Address_P
+{
+    text-align: left;
+    padding-left: 45px;
+}
+
